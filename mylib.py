@@ -56,15 +56,15 @@ def create_figure_withplot_for_league_with_season_dropdown(data_for_one_league, 
                         ]
                     ) for season_number in np.arange(1,7)
                 ),
-                x=0.18,
+                x=0.21,
                 y=1.1
             )
         ]
     )
     fig.update_layout(
         annotations=[
-            dict(text="<b>Season</b>", x=0, xref="paper", y=1.08, yref="paper",
-                 align="left", showarrow=False),
+            dict(text="<b>Season</b>", x=0.1, xref="paper", xanchor ="right", 
+                 y=1.08, yref="paper", align="left", showarrow=False),
         ],
         title=dict(
             text = league_title + " 14/15",
