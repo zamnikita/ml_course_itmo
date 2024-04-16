@@ -17,7 +17,7 @@ def create_match_label(h_a, team, team_a, scored, missed):
         match_label = "{} {:d}:{:d} {}".format(team_a, missed, scored, team)
     return match_label
 
-def create_figure_withplot_for_league_with_season_dropdown(data_for_one_league, league_title):
+def create_interactive_season_plots(data_for_one_league, league_title):
     fig = go.Figure() 
     fig.update_layout(
         width=900,
