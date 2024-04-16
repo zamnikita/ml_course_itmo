@@ -18,7 +18,7 @@ pandas, sklearn, matplotlib, seaborn, optuna, plotly.
 # task1_EDA_Baseline.ipynb
 - Формирование признаков.
 - Обучение базовых моделей.
-- Интерактивные графики набора очков командами с использованием библиотеки Plotly.
+- Интерактивные графики набора очков командами с использованием библиотеки Plotly. Доступны по [ссылке](https://zamnikita.github.io/ml_course_itmo/getting_points_by_each_team_plots.html) на GitHub Page. 
 
 # task2_EDA_Baseline.ipynb
 - Формирование дополнительных признаков.
